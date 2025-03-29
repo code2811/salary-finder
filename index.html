@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salary Finder - Job Salary Estimator</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Salary<span>Finder</span></div>
+      <div class="subtitle">Find the right salary for your dream job</div>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="search-container">
+      <h2>Search Estimated Salaries</h2>
+      <p style="margin-bottom: 20px;">Enter job details to get accurate salary estimates based on your qualifications and location.</p>
+      
+      <form id="search-form" class="search-form">
+        <div class="form-group">
+          <label for="job-title">Job Title</label>
+          <input type="text" id="job-title" placeholder="e.g. Software Engineer, Data Scientist" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" id="location" placeholder="e.g. New York, San Francisco" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="experience">Years of Experience</label>
+          <select id="experience">
+            <option value="ALL">All Experience Levels</option>
+            <option value="LESS_THAN_1">Less than 1 year</option>
+            <option value="ONE_TO_THREE">1-3 years</option>
+            <option value="THREE_TO_FIVE">3-5 years</option>
+            <option value="FIVE_TO_TEN">5-10 years</option>
+            <option value="MORE_THAN_10">More than 10 years</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="location-type">Location Type</label>
+          <select id="location-type">
+            <option value="ANY">Any (Remote or On-site)</option>
+            <option value="REMOTE">Remote Only</option>
+            <option value="ON_SITE">On-site Only</option>
+          </select>
+        </div>
+        
+        <div class="form-group" style="grid-column: span 2;">
+          <div id="recent-searches-container" class="hidden">
+            <label>Recent Searches</label>
+            <div id="recent-searches" class="recent-searches"></div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label>&nbsp;</label>
+          <button type="submit" class="btn-search">
+            Find Salary Estimates
+          </button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="filter-container">
+      <select id="sort-select" class="sort-select">
+        <option value="median">Sort by Median Salary</option>
+        <option value="min">Sort by Minimum Salary</option>
+        <option value="max">Sort by Maximum Salary</option>
+      </select>
+    </div>
+
+    <div class="results-container">
+      <div class="results-header">
+        <h2>Salary Estimates</h2>
+        <div class="currency-formatter">
+          <label for="currency">Currency: </label>
+          <select id="currency">
+            <option value="USD">USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="JPY">JPY (¥)</option>
+            <option value="CAD">CAD (C$)</option>
+            <option value="AUD">AUD (A$)</option>
+          </select>
+        </div>
+      </div>
+      
+      <div id="results">
+        <div class="no-results">
+          <i>📊</i>
+          <p>Enter a job title and location above to see salary estimates</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <p>SalaryFinder © 2025 | Helping job seekers find competitive salaries worldwide</p>
+    </div>
+  </footer>
+
+  <!-- Include the external configuration file first -->
+  <script src="js/config.js"></script>
+  <!-- Then the main script file -->
+  <script src="js/main.js"></script>
+</body>
+</html>
