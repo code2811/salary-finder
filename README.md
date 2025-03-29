@@ -1,7 +1,7 @@
-# Project Name
+# salary finder app
 
 ## Description
-A brief description of your project, what it does, and its purpose.
+this is an app that helps you to see estimated salary depending on the career ,location and years of experience.
 
 ## Features
 - Feature 1
@@ -14,7 +14,7 @@ A brief description of your project, what it does, and its purpose.
 - API Used (credit given below)
 
 ## API Credit
-This project utilizes the **[API Name]** API to provide [functionality]. Special thanks to **[API Provider]** for making this resource available. You can find more about this API here: [API Documentation Link].
+This project utilizes the **[API Name]** API to provide [functionality]. Thanks to **[API Provider]** for making this resource available. You can find more about this API here: [API Documentation Link].
 
 ## Installation
 ### Prerequisites
@@ -43,7 +43,7 @@ This project utilizes the **[API Name]** API to provide [functionality]. Special
 Provide a brief guide on how to use your project, including any necessary setup steps or configurations.
 
 ## Demo Video
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+https://youtu.be/fNhYYaH_ry8
 
 ## Contributing
 If you'd like to contribute, please follow these steps:
