@@ -1,7 +1,7 @@
 # salary finder app
 
 ## Description
-this is an app that helps you to see estimated salary depending on the career ,location and years of experience.
+This app helps you see estimated salaries depending on your career, location, and years of experience.
 
 ## Features
 - Search Functionality
@@ -42,7 +42,9 @@ RapidAPI key for the JSearch API
    ```
 
 ## Usage
-Provide a brief guide on how to use your project, including any necessary setup steps or configurations.
+A web application that tracks estimated salaries based on career, location, and area using the JSearch API.
+Project Overview
+Salary Finder helps users discover estimated salary ranges for different careers across various locations. The application provides an intuitive interface to search and compare salary data.
 
 ## Demo Video
 https://youtu.be/fNhYYaH_ry8
@@ -61,5 +63,5 @@ This project is licensed under the [License Name] - see the [LICENSE](LICENSE) f
 ## Contact
 For any inquiries or issues, please reach out to:
 - **Your Name**
-- Email: your.email@example.com
-- GitHub: [yourusername](https://github.com/yourusername)
+- Email: f.kayiranga@alustudent.com
+- GitHub: [yourusername](https://github.com/code2811)
