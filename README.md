@@ -4,31 +4,33 @@
 this is an app that helps you to see estimated salary depending on the career ,location and years of experience.
 
 ## Features
-- Feature 1
-- Feature 2
-- Feature 3
+- Search Functionality
+- Salary Data Visualization
+- User Experience Features
 
 ## Technologies Used
-- Programming Language / Framework
-- Libraries / Dependencies
-- API Used (credit given below)
+- Frontend Technologies
+- API Integration
+  
 
 ## API Credit
-This project utilizes the **[API Name]** API to provide [functionality]. Thanks to **[API Provider]** for making this resource available. You can find more about this API here: [API Documentation Link].
+This project utilizes the JSearch API from RapidAPI to provide salary data across various job positions and locations. Thanks to RapidAPI for making this resource available. You can find more about this API here: https://rapidapi.com/jsearch-jsearch-default/api/jsearch
 
 ## Installation
 ### Prerequisites
-- Install [Dependency 1]
-- Install [Dependency 2]
+A modern web browser (Chrome, Firefox, Safari, etc.)
+Basic knowledge of HTML, CSS, and JavaScript (for development)
+RapidAPI key for the JSearch API
+  
 
 ### Steps to Run the Project
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/code2811/salary-finder.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo
+   cd salary-finder
    ```
 3. Install dependencies:
    ```bash
